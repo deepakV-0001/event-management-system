@@ -5,3 +5,4 @@ exports.createToken = (id) => {
     expiresIn: process.env.JWT_EXPIRES_IN
   });
 };
+
